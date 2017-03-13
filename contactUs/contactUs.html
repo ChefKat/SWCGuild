@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+  <form action="#" method="get">
+    <table border="0" width="90%">
+      <tr>
+        <td align="right" width="80px">
+          First Name:
+        </td>
+        <td>
+          <input type="text" name="firstName" placeholder="First Name" size="40"/><br/>
+        </td>
+      </tr>
+      <tr>
+        <td align="right" width="30px" height="40">
+          Last Name:
+        </td>
+        <td>
+          <input type="text" name="lastName" placeholder="Last Name" size="40"/>
+        </td>
+      </tr>
+      <tr>
+        <td align="right" width="20%" height="40">
+          Email:
+        </td>
+        <td>
+          <input type="email" name="email" placeholder="Email Address" size="40"/>
+        </td>
+      </tr>
+      <tr>
+        <td align="right" width="20%" height="40">
+          Type of License:
+        </td>
+        <td>
+          <input type="radio" name="business" checked/>Business
+          <input type="radio" name="personal" />Personal
+        </td>
+      </tr>
+      <tr>
+        <td align="right" width="20%" height="40">
+          Reason:
+        </td>
+        <td>
+          <select name="Reason" required>
+            <option value="selectReason" disabled selected hidden>Select a Reason</option>
+            <option value="softwareSupport">Software Support</option>
+            <option value="Hardware Support">Hardware Support</option>
+            <option value="information">Information Request</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td align="right" width="20%" valign="top" height="40">
+          Additional Information:
+        </td>
+        <td>
+          <textarea rows="5" cols="40" placeholder="Please provide additional information here:"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td height="40"></td>
+        <td>
+          <input type="button" name="readTerms" />  I have read the terms of service.
+        </td>
+      </tr>
+      <tr>
+        <td height="40"></td>
+        <td>
+          <input type="submit" value="Submit Request"/>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

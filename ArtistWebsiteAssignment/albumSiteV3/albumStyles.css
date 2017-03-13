@@ -1,0 +1,35 @@
+﻿h2 {
+  color: blue;
+}
+
+.albumInfo {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.trackInfo {
+  text-align: center;
+
+}
+
+.artistInfo {
+  padding: 2px;
+  padding: 2px;
+  padding-left: 15%;
+}
+
+body {
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2px;
+}

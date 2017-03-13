@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+  <table align="center">
+    <tr>
+      <td><h1>Raison D'&ecirc;tre</h1></td>
+    </tr>
+  </table>
+  <hr width="100%" size="2" color="grey" />
+  <div>
+    <table border="0">
+      <tr>
+        <td width="100" align="center" height="50"><a href="Home.html">Home</a></td>
+        <td width="100" align="center" height="50"><a href="Menu.html">Menu</a></td>
+        <td width="100" align="center" height="50"><a href="ContactUs.html">Contact Us</a></td>
+
+      </tr>
+    </table>
+  </div>
+  <hr width="100%" size="2" color="grey" />
+  <br/><br/>
+  <form action="#" method="get">
+    <table border="0" align="center" width="500">
+      <tr>
+        <td align="right" width="50%" height="40px">Name:</td>
+        <td align="right"><input type="text" name="name" style="width:255px"  /></td>
+      </tr>
+      <tr>
+        <td align="right" width="50%" height="40">Email:</td>
+        <td align="right"><input type="text" name="email" style="width:255px" /></td>
+      </tr>
+      <tr>
+        <td align="right" width="50%" height="40">Phone:</td>
+        <td align="right"><input type="text" name="phoneNumber" style="width:255px" /></td>
+      </tr>
+      <tr>
+        <td align="right" width="50%" height="40">Reason for Inquiry:</td>
+        <td align="right">
+          <select name="inquiry" style="width:260px" required>
+            <option value="Select One" disabled hidden selected>Select One</option>
+            <option value="catering">Catering</option>
+            <option value="privateDining">Private Dining</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right" width="50%" height="40">Additional Information:</td>
+        <td><textarea name="additionalComments" style="width: 255px" rows="4" placeholder="Additional Comments Here:"></textarea></td>
+      </tr>
+      <tr>
+        <td align="right" width="50%" height="40">Have you dined with us before?</td>
+        <td>
+          <input type="radio" name="dined"/>Yes   
+          <input type="radio" name="dined" />No
+        </td>
+      </tr>
+      <tr>
+        <td align="right" width="50%" height="40">Best days to contact you:</td>
+        <td align="justify">
+            <p>
+                <input type="checkbox" name="monday" />M
+                <input type="checkbox" name="tuesday" />T
+                <input type="checkbox" name="wednesday" />W
+                <input type="checkbox" name="thursday" />Th
+                <input type="checkbox" name="friday" />F
+            </p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td align="right"><input type="submit" name="Send Request" /></td>
+      </tr>
+    </table>
+  </form>
+  <br /><br/>
+  <hr width="100%" size="2" color="grey" />
+  <br />
+  <table align="center">
+    <tr>
+      <td align="center">5146 W. Gosling Ave, Mt. Pleasant, OR, 86753</td>
+    </tr>
+    <tr>
+      <td align="center">800-568-5618</td>
+    </tr>
+  </table>
+</body>
+</html>
