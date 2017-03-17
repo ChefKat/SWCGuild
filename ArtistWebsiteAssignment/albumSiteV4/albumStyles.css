@@ -1,0 +1,46 @@
+﻿h2 {
+  color: blue;
+}
+
+.albumInfo {
+  text-align: center;
+}
+
+#albumImage {
+	content: url(../Kind_of_Blue.jpg); 
+	text-align: center;
+	margin: auto;
+	height: 45%;
+	width: 45%;
+	max-width: 100%;
+	padding-top: 2%;
+}
+
+h3 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.trackInfo {
+  text-align: center;
+
+}
+
+.artistInfo {
+  padding: 2px;
+  padding: 2px;
+  padding-left: 15%;
+  font-style: italic;
+}
+
+body {
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2px;
+}

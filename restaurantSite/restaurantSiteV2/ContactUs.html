@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Raison D'&ecirc;tre</title>
+  <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
+  <style>
+    body {
+	  font-family:Lora;
+	}
+	
+	table {
+	  width: 65%;
+  	  border-collapse: collapse;
+	  border: 1px dashed orange;
+	  margin-left: 17.5%;
+	  align: center; 
+
+	
+    .question {
+	  text-align: right;
+	  width: 50%;
+	  padding: 3%;
+	  vertical-align: top;
+	}
+	
+	.response 
+	{
+	  width:100%;
+	  box-sizing: border-box;
+	  resize: none;
+	}
+	
+	#inquiry {
+	  width: 100%;
+    }
+	
+	#sendRequest {
+	  text-align:right;
+	}
+	
+	#dayContact {
+	  text-align: center;
+	  word-spacing: .6em;
+	}
+	
+  </style>
+	
+</head>
+<body>
+<body>
+  <div class="restaurantHeader">
+    <h1>Raison D'&ecirc;tre</h1>
+  </div>
+  <hr/>
+  <div class="siteLinks">
+    <a id="link1" href="Home.html">Home</a>
+    <a id="link2" href="Menu.html">Menu</a>
+	<a id="link3" href="ContactUs.html">Contact Us</a>
+  </div>
+  <hr/>
+  <br/><br/>
+  <form action="#" method="get">
+    <table style="overflow-x:auto;">
+      <tr>
+        <td class="question">Name:</td>
+        <td><input class="response" type="text" name="name" /></td>
+      </tr>
+      <tr>
+        <td class="question">Email:</td>
+        <td><input class="response" type="text" name="email"/></td>
+      </tr>
+      <tr>
+        <td class="question">Phone:</td>
+        <td ><input class="response" type="text" name="phoneNumber" /></td>
+      </tr>
+      <tr>
+        <td class="question">Reason for Inquiry:</td>
+        <td>
+          <select name="inquiry" class="response" required>
+            <option value="Select One" disabled hidden selected>Select One</option>
+            <option value="catering">Catering</option>
+            <option value="privateDining">Private Dining</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="question">Additional Information:</td>
+        <td><textarea name="additionalComments" class="response" rows="4" placeholder="Additional Comments Here:"></textarea></td>
+      </tr>
+      <tr>
+        <td class="question">Have you dined with us before?</td>
+        <td>
+          <input type="radio" name="dined"/>Yes   
+          <input type="radio" name="dined" />No
+        </td>
+      </tr>
+      <tr>
+        <td class="question">Best days to contact you:</td>
+        <td id="dayContact">
+            <p>
+                <input type="checkbox" name="monday" />M
+                <input type="checkbox" name="tuesday" />T
+                <input type="checkbox" name="wednesday" />W
+                <input type="checkbox" name="thursday" />Th
+                <input type="checkbox" name="friday" />F
+            </p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td id="sendRequest"><input type="submit" name="Send Request" /></td>
+      </tr>
+    </table>
+  </form>
+  <br /><br/>
+  <hr/>
+  <div class="restaurantFooter">  
+    <p>5146 W. Gosling Ave, Mt. Pleasant, OR, 86753</p>
+    <p>800-568-5618</p>
+  </div>
+</body>
+</html>
