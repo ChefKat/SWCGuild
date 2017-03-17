@@ -44,3 +44,27 @@ table, th, td {
   border: 1px solid black;
   padding: 2px;
 }
+
+thead {
+  background-color: gray;
+}
+
+tbody, tfoot {
+  font-style: italic;
+  background-color: lime;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.a:link {
+  color: Black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+  background-color: lime;
+/* While this color combination for the link is visually not the most attractive, it is however a nod to Miles' Album Blue in Green, Also, Green was his favorite color */
+}
