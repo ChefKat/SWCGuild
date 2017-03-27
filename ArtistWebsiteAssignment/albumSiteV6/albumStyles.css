@@ -1,0 +1,60 @@
+﻿h2 {
+  color: blue;
+}
+
+.albumInfo {
+  text-align: center;
+}
+
+#albumImage {
+  height: 45%;
+  width: 45%; 
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+}
+
+h3 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.trackInfo {
+  text-align: center;
+
+}
+
+.artistInfo {
+  padding: 2px;
+  padding: 2px;
+  padding-left: 15%;
+  font-style: italic;
+}
+
+
+thead {
+  background-color: gray;
+}
+
+tbody, tfoot {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.a:link {
+  color: Black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+  background-color: lime;
+/* While this color combination for the link is visually not the most attractive, it is however a nod to Miles' favorite color as well as the track 'Blue in Green'*/
+}
