@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Raison D'&ecirc;tre</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="..\bootstrap\css\bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <script src="..\bootstrap\css\bootstrap-theme.min.css"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="..\bootstrap\js\bootstrap.min.js"></script>
+
+  <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
+
+  <style>
+    body {
+	  font-family:Lora;
+	  margin: 0;
+	}
+	
+	table {
+	  width: 65%;
+  	  border-collapse: collapse;
+	  margin-left: 17.5%;
+	  margin: auto;
+    }
+	
+	.contactUs {
+	  	background: hsla(85, 20%, 93%, .94);
+        background: radial-gradient(hsla(85, 20%, 93%, .94) 65%, hsla(93, 73%, 100%, 1));
+		padding: 4% 0%;
+	}
+	
+    .question {
+	  text-align: right;
+	  width: 50%;
+	  padding: 3%;
+	  vertical-align: top;
+	  font-weight: bold;
+	}
+	
+	.response 
+	{
+	  width:100%;
+	  box-sizing: border-box;
+	  resize: none;
+	}
+	
+	#inquiry {
+	  width: 100%;
+    }
+	
+	#sendRequest {
+	  text-align:right;
+	}
+	
+	#dayContact {
+	  text-align: center;
+	  word-spacing: .6em;
+	}
+	
+  </style>
+	
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="col-xs-12 restaurantHeader">
+      <h1>Raison D'&ecirc;tre</h1>
+    </div>
+    <div class="row">
+      <ul class="siteLinks nav nav-tabs">
+        <li class="col-xs-3 col-sm-3 col-md-2"><a href="Home.html"<span class="glyphicon glyphicon-home"></span></a></li>
+        <li class="col-xs-3 col-sm-3 col-md-2"><a href="Menu.html">Menu</a></li>
+        <li class="col-xs-3 col-sm-3 col-md-2"><a href="Beverages.html">Beverages</a></li>
+        <li class="active col-xs-3 col-sm-3 col-md-2"><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="contactUs">
+  <form action="#" method="get">
+    <table style="overflow-x:auto;">
+      <tr>
+        <td class="question">Name:</td>
+        <td><input class="response" type="text" name="name" required/></td>
+      </tr>
+      <tr>
+        <td class="question">Email:</td>
+        <td><input class="response" type="text" name="email" required/></td>
+      </tr>
+      <tr>
+        <td class="question">Phone:</td>
+        <td ><input class="response" type="text" name="phoneNumber"  required/></td>
+      </tr>
+      <tr>
+        <td class="question">Reason for Inquiry:</td>
+        <td>
+          <select name="inquiry" class="response" required>
+            <option value="Select One" disabled hidden selected>&nbsp;</option>
+            <option value="catering">Catering</option>
+            <option value="privateDining">Private Dining</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="question">Additional Information:</td>
+        <td><textarea name="additionalComments" class="response" rows="4" placeholder="Additional Comments Here:" required></textarea></td>
+      </tr>
+      <tr>
+        <td class="question">Have you dined with us before?</td>
+        <td>
+          <input type="radio" name="dined" value="Yes"  required/>Yes   
+          <input type="radio" name="dined" value="No"/>No
+        </td>
+      </tr>
+      <tr>
+        <td class="question">Best days to contact you:</td>
+        <td id="dayContact">
+            <p>
+                <input type="checkbox" name="dayOfWeek" value="Monday"/>M
+                <input type="checkbox" name="dayOfWeek" value="Tuesday" />T
+                <input type="checkbox" name="dayOfWeek" value="Wednesday" />W
+                <input type="checkbox" name="dayOfWeek" value="Thursday"/>Th
+                <input type="checkbox" name="dayOfWeek" value="Friday" />F
+            </p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td id="sendRequest"><input type="submit" name="Send Request" /></td>
+      </tr>
+    </table>
+  </form>
+  <hr />
+  </div>
+  <div class="restaurantFooter">  
+    <p>5146 W. Gosling Ave, Mt. Pleasant, OR, 86753</p>
+    <p>800-568-5618</p>
+  </div>
+</body>
+</html>

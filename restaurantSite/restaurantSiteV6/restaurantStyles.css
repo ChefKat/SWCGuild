@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Lora');
+
+.restaurantHeader {
+    font-family: 'Clicker Script', cursive;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+
+.siteLinks {
+	text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a:hover {
+  font-weight: bold;
+
+}
+
+a:visited {
+  color: cornflowerblue;
+}
+
+.restaurantFooter {
+	font-family: 'Clicker Script', cursive;
+	text-align: center;
+	margin: 3%;
+}
+
+hr {
+	width:90%;
+	size= 2px; 
+	color: grey; 
+}
